@@ -1,5 +1,3 @@
-require "pry"
-
 def get_first_name_of_season_winner(data, season)
   winner = ""
   data.each do |seasons, contestants|
@@ -60,5 +58,4 @@ def get_average_age_for_season(data, season)
     end
   end
   (total_years.to_f / contestant_total.to_f).round
-#  average_age
 end
